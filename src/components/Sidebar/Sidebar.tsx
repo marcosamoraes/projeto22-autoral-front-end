@@ -54,16 +54,10 @@ export default function Sidebar() {
       href: '/dashboard/cupons'
     },
     {
-      id: 'admins',
-      name: 'Administradores',
+      id: 'funcionarios',
+      name: 'Funcionários',
       icon: <RiAdminFill size={24} />,
-      href: '/dashboard/admins'
-    },
-    {
-      id: 'configuracoes',
-      name: 'Configurações',
-      icon: <FiSettings size={24} />,
-      href: '/dashboard/configuracoes'
+      href: '/dashboard/funcionarios'
     },
     {
       id: 'sair',
@@ -75,8 +69,8 @@ export default function Sidebar() {
 
   return (
     <aside className={`h-full z-20 w-full md:w-4/12 xl:w-2/12 ${isOpen ? 'left-0' : '-left-full'} transition-all duration-700 ease-in-out md:left-0 absolute md:relative border-r-2 py-10 px-5 bg-zinc-800 text-white rounded-r-3xl flex flex-col flex-wrap items-start shadow-lg`}>
-      <div className="w-full hidden md:flex mb-10">
-        <Image src="/logo-white.png" priority={true} alt="logo" width={300} height={300} />
+      <div className="w-full hidden md:flex justify-center mb-10">
+        <Image src="/saborearts.png" priority={true} alt="logo" width={100} height={100} />
       </div>
       <nav className="flex gap-2 flex-col w-full">
         {pages.map(page => (

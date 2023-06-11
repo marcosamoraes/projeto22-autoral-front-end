@@ -5,8 +5,8 @@ import NavbarMobile from '@/components/NavbarMobile/NavbarMobile'
 import SidebarProvider from '@/contexts/SidebarProvider'
 
 export const metadata = {
-  title: 'Next Assessoria',
-  description: 'Loja NEXT - Loja Glock Oficial',
+  title: 'Delivery UP',
+  description: 'Delivery UP',
 }
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
